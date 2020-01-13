@@ -3,19 +3,19 @@
 #
 #### Speech Recognitioon
 #
-#### ç›®çš„
+#### ¥Øªº
 #
 Google recently released the Speech Commands Datasets. It includes 65,000 one-second long utterances of 30 short words, by thousands of different people.
 
 In this competition, you're challenged to use the Speech Commands Dataset to build an algorithm that understands simple spoken commands. By improving the recognition accuracy of open-sourced voice interface tools, we can improve product effectiveness and their accessibility.
 
-#### æµç¨‹åœ–
+#### ¬yµ{¹Ï
 ![image](https://imgur.com/0tuLhdh.jpg)
-#### å…§å®¹
+#### ¤º®e
 #
-å°‡æ‰€æœ‰éŸ³æª”é€²è¡Œè£åˆ‡ä¸¦åˆ©ç”¨librosaé€²è¡ŒMFCCç‰¹å¾µæå–ï¼Œ
-å°‡æå–å‡ºçš„ç‰¹å¾µ Reshape è‡³ 20*11 å¤§å°ï¼Œ
-åˆ©ç”¨ç°¡æ˜“çš„ CNN Model é€²è¡Œè¨“ç·´ã€‚
+±N©Ò¦³­µÀÉ¶i¦æµô¤Á¨Ã§Q¥Îlibrosa¶i¦æMFCC¯S¼x´£¨ú¡A
+±N´£¨ú¥Xªº¯S¼x Reshape ¦Ü 20*11 ¤j¤p¡A
+§Q¥ÎÂ²©öªº CNN Model ¶i¦æ°V½m¡C
 ######  Loss
 ![image](https://imgur.com/y9sXYqq.jpg)
 
@@ -23,6 +23,5 @@ In this competition, you're challenged to use the Speech Commands Dataset to bui
 ![image](https://imgur.com/XCZbKi4.jpg)
 
 
-æœ€å¾Œè¨“ç·´å®Œæˆå¾Œä½¿ç”¨ predict.py ç¨‹å¼é€²è¡Œé æ¸¬ä¸¦è¼¸å‡ºçµæœã€‚
-
+³Ì«á°V½m§¹¦¨«á¨Ï¥Î predict.py µ{¦¡¶i¦æ¹w´ú¨Ã¿é¥Xµ²ªG¡C
 
